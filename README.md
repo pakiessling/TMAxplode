@@ -3,7 +3,7 @@
 ![TMAxplode header](media/header.png)
 
 
-Small utility to separate tissue pieces or TMA cores in spatial transcriptomic measurements. Every separate tissue piece will receive a unique number. Optionally, remove tissue sections containing less than a specified number of cells.
+Small utility to separate tissue pieces or TMA cores in spatial transcriptomic measurements. Every separate tissue piece will receive a unique number. Optionally, identifies isolated pieces with less cells than specified to identify debris and damaged pieces.
 
 ## Usage
 

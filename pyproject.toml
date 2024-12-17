@@ -1,9 +1,9 @@
 [project]
-authors = [{name = "pakiessling", email = "pakiessling@ukaachen.de"}]
+authors = [{name = "Paul Kiessling", email = "pakiessling@ukaachen.de"}]
 dependencies = []
-description = "Add a short description here"
+description = "Separating tissue pieces based on centroid location in spatial transcriptomics data."
 name = "TMAxplode"
-requires-python = ">= 3.11"
+requires-python = ">= 3.9"
 version = "0.1.0"
 
 [project.optional-dependencies]

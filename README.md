@@ -5,6 +5,12 @@
 
 Small utility to separate tissue pieces or TMA cores in spatial transcriptomic measurements. Every separate tissue piece will receive a unique number. Optionally, identifies isolated pieces with less cells than specified to identify debris and damaged pieces.
 
+## Installation
+```pip install git+https://github.com/pakiessling/TMAxplode.git```
+
+Install with optional dependencies for tests:
+```pip install "git+https://github.com/pakiessling/TMAxplode.git#egg=tmaxplode[test]"```
+
 ## Usage
 
 TMAxplode take as input an anndata object or a two dimensional numpy array indicating cell centroids. 

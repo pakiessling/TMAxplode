@@ -1107,10 +1107,10 @@ packages:
   name: tmaxplode
   version: 0.1.0
   path: .
-  sha256: c26d47cb7215e0e2321a0df50495256d5cdb0b6575345e0ffb205cc2fe90195c
+  sha256: 6ed8d8c302101f450697b684ba20db10d15085083a69f425bcfdefe7b93973b5
   requires_dist:
   - pytest ; extra == 'test'
-  requires_python: '>=3.11'
+  requires_python: '>=3.9'
   editable: true
 - kind: conda
   name: tomli

@@ -32,6 +32,6 @@ res_vector = explode(centroid_array,radius=500,min_cells=50)
 
 In the first step a binary adjacency matrix is built from the the provided centroids based on the specified radius.
 
-Then adjacency list is build for every node.
+Then an adjacency list is build for every node.
 
 In the last step we iterate over all nodes starting a breadth first search (BFS) when an unvisited node is found to track down all components which are not connected.

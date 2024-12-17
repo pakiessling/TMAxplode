@@ -1,0 +1,33 @@
+[project]
+authors = [{name = "pakiessling", email = "pakiessling@ukaachen.de"}]
+dependencies = []
+description = "Add a short description here"
+name = "TMAxplode"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+tmaxplode = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+ruff = ">=0.8.3,<0.9"
+scanpy = ">=1.10.3,<2"
+squidpy = ">=1.2.2,<2"
+ipykernel = ">=6.29.5,<7"
+anndata = ">=0.7.6,<0.11.0"
+
+[tool.pixi.environments]
+test = { features = ["test"], solve-group = "default" }
